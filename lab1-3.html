@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Альмухаметова Гульшана</title>
+</head>
+<body>
+
+	<div class="content">
+		<h1>Задание №3.</h1>
+		<p>Представьтесь пожалуйста.</p>
+		<p id="name"></p>
+		<script language="JavaScript">
+			var name = prompt("Введите сюда своё имя", "Ваше имя");
+			var result = "Ваше имя " + name + "?";
+			document.getElementById("name").innerHTML = result;
+			let answer = confirm("Начать заново?");
+			if(answer) alert("Не надоело?")
+			else alert("Ну и правильно!")
+		</script>
+		
+
+		<br><a href="lr1.html">Назад</a>
+	</div>
+</body>
+</html>
