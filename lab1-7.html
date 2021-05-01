@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Альмухаметова Гульшана</title>
+
+	<script language="JavaScript">
+		function Years(){
+			year = new Array("декабрь","январь","февраль","март","апрель","май","июнь","июль","август","сентябрь","октябрь","ноябрь");
+			summer = new Array();
+			summer = year.slice(6,9);
+			document.write(summer+"<br>");
+		}
+
+		function Science(){
+			science = new Array("Информатика","Физика","Геометрия","Астрономия","Литература","Обществознание","История","Лингвистика");
+			math = new Array();
+			guman = new Array();
+			guman = science.slice(4,8);
+			math = science.slice(0,4);
+			document.write("Гуманитарные науки: " + guman +"<br>");	
+			document.write("Точные науки: " + math +"<br>");
+		}
+
+	</script>
+
+</head>
+<body>
+	<div class="content">
+		<h1>Задание №7.</h1>
+		<p></p>
+		<script language="JavaScript">
+			Years();
+			Science();
+		</script>
+
+		<br><a href="lr1.html">Назад</a>
+</body>
+</html>
